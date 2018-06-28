@@ -91,3 +91,51 @@ nav ul li:hover > ul {
     position: relative;
     overflow: hidden;
 }
+
+.slogan {
+    width: 80%;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.slogan h2 {
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.slogan h2 span {
+    color: #e00986;
+}
+
+.yellow-text {
+    font-size: 40px;
+    color: #fbb619!important;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about-section {
+    width: 100%;
+    background-color: #f29cd9;
+}
+
+.about-section h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.about-section img {
+    margin: 10px auto 30px;
+    display: block;
+}
