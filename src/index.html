@@ -83,6 +83,18 @@
        <p>
            &#169 Strona stworzona dzięki kursowi <a href="http://bedeprogramistka.pl" target="_blank">Będę programistką</a>
        </p>
+       <p>
+           <form action="form.php" method="POST">
+               <label for="name">Imię</label>
+               <input type="text" name="name" id="name" required>
+               <label for="email">E-mail</label>
+               <input type="email" name="email" id="email" required>
+               <label for="massage">Twoja wiadomość</label>
+               <textarea name="message" id="message" cols="30" rows="3" required></textarea>
+               <input type="submit" name="submit" value="Wyślij">
+               <input type="reset" name="reset" value="Reset">
+           </form>
+       </p>
     </footer>
 </body>
 </html>
